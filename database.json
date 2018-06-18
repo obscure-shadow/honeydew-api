@@ -1,11 +1,74 @@
 {
-    "users":[
-      {
-        "id": "1",
-        "name": "David"
-      }
-    ],
-    "tool":[],
-    "projectTools":[],
-    "project":[]
+  "users": [
+    {
+      "id": "1",
+      "name": "David"
+    }
+  ],
+  "tool": [
+    {
+      "toolName": "hammer",
+      "toolPrice": "20",
+      "toolStatus": "yes",
+      "owner": "1",
+      "id": 1
+    },
+    {
+      "toolName": "screw driver",
+      "toolPrice": "5",
+      "toolStatus": "yes",
+      "owner": "1",
+      "id": 2
+    },
+    {
+      "toolName": "Nail Gun",
+      "toolPrice": "200",
+      "toolStatus": "no",
+      "owner": "1",
+      "id": 3
+    },
+    {
+      "toolName": "Belt Sander",
+      "toolPrice": "100",
+      "toolStatus": "no",
+      "owner": "1",
+      "id": 4
+    },
+    {
+      "toolName": "plane",
+      "toolPrice": "23",
+      "toolStatus": "yes",
+      "owner": "1",
+      "id": 5
+    }
+  ],
+  "projectTools": [
+    {
+      "project": "1",
+      "tool": "1",
+      "id": 1
+    }
+  ],
+  "project": [
+    {
+      "name": "Fix Chair",
+      "description": "replace broken leg of chair",
+      "estTime": "25 min",
+      "supplyCost": "25",
+      "finalTime": "",
+      "finished": "no",
+      "owner": "1",
+      "id": 1
+    },
+    {
+      "name": "Sand Deck",
+      "description": "smooth the wood on the back deck",
+      "estTime": "3 hrs",
+      "supplyCost": "20",
+      "finalTime": "",
+      "finished": "no",
+      "owner": "1",
+      "id": 2
+    }
+  ]
 }
